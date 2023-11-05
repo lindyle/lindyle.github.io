@@ -30,12 +30,15 @@ h2::selection {
 .btn-primary {
   background: var(--primary-color);
   color: #111111;
+  word-spacing: 7px;
 }
 
 .btn-secondary {
   margin: 5px 0;
-  background-color: var(--bg-secondary);
-  color: var(--bg-primary);
+  background: var(--primary-color);
+  color: #111111;
+  font-weight: var(--weight-semibold);
+  word-spacing: 7px;
 }
 
 /* add hover to resume button */
@@ -91,7 +94,7 @@ h2::selection {
   margin: 1.5rem 0;
 }
 
-.content-text h2 {
+.content-text h2:not(#intro-h2)  {
   font-size: 3rem;
   line-height: 1.2;
   transition: 0.2s ease-in-out;
@@ -171,7 +174,7 @@ h2::selection {
     text-align: center;
   }
 
-  .content-text h2 {
+  .content-text h2:not(#intro-h2) {
     font-size: 2.5rem;
   }
 }

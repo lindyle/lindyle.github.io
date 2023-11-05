@@ -61,7 +61,7 @@ if (currentTheme) {
 
 //Adding date
 
-let myDate = document.querySelector("#datee");
-
-const yes = new Date().getFullYear();
-myDate.innerHTML = yes;
+document.querySelectorAll(".datee").forEach((datee) => {
+  const yes = new Date().getFullYear();
+  datee.innerHTML = yes;
+});
