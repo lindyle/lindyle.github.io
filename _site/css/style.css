@@ -23,7 +23,7 @@
   /* Font Weight */
   --weight-small: 400;
   --weight-semibold: 600;
-  --weight-bold: 800;
+  --weight-bold: 700;
 
   /* Max width */
   --width-small: 600px;
@@ -65,7 +65,23 @@ a {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+}
+
+/* Intro styling */
+
+#intro-h2 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: var(--weight-bold);
+}
+
+#intro {
+  max-width: var(--width-small);
+}
+
+#intro-p {
+  text-align: justify;
 }
 
 /* Main styling */
