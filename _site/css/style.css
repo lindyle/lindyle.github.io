@@ -78,11 +78,11 @@ body {
 
 /* Filter for SVG images */
 .svg-filter {
-  filter: brightness(0) saturate(100%) /* For single color svgs, changes color to black first before applying filter */ invert(84%) sepia(47%) saturate(367%) hue-rotate(318deg) brightness(115%) contrast(105%);
+  filter: brightness(0) saturate(100%) /* For single color svgs, changes color to black first before applying filter */ invert(95%) sepia(5%) saturate(1391%) hue-rotate(346deg) brightness(103%) contrast(101%);
 }
 
 .svg-filter-overlay {
-  filter: invert(84%) sepia(47%) saturate(367%) hue-rotate(318deg) brightness(115%) contrast(105%);
+  filter: invert(95%) sepia(5%) saturate(1391%) hue-rotate(346deg) brightness(103%) contrast(101%);
 }
 
 /* Navbar */

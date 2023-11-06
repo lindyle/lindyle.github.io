@@ -38,12 +38,13 @@ layout: default
     <article class="project">
       <!-- Project Card -->
       {% for portfolio_item in site.portfolio %}
-        <div class="card" onclick="window.location.href = '{{ portfolio_item.link }}';" background:"url({{ portfolio_item.image_path }}) center center/cover;">
+        <div class="card" onclick="window.location.href = '{{ portfolio_item.link }}';">
           <div class="project-info">
             <div class="project-bio">
               <h3>{{ portfolio_item.project_name }}</h3>
               <p>{{ portfolio_item.description }}</p>
             </div>
+
           </div>
         </div>
       {% endfor %}
