@@ -191,7 +191,7 @@ body {
   margin: 5.5rem 0;
 }
 /* Projects */
-#projects {
+#projects, #publications {
   display: flex;
   flex-direction: column;
   margin: 2rem auto 5rem;
