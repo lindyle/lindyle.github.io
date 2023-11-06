@@ -1,0 +1,120 @@
+---
+Title: Home
+layout: default
+---
+<!-- Header (About Me) -->
+<section id="about" class="header-container">
+  <img
+    class="profile-image"
+    src="../assets/profile-image.png"
+    alt="Lindy's Avatar"
+  />
+  <h1>Hi, I'm Lindy.</h1>
+  
+  <div class="content-text">
+    <h2 id="intro-h2">Neurodiversity · Empathy · Accessibility</h2>
+
+    <p>
+      A Frontend Developer and Visual Designer with experience in web
+      design, brand identity and product design.
+    </p>
+  </div>
+  <a
+    href="mailto:lindyrose.le@gmail.com"
+    class="btn btn-secondary"
+    target="_blank"
+    >Let's Chat!</a
+  >
+</section>
+
+<!-- Main -->
+<section id="projects" class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Check out some of my personal and paid projects</p>
+    </div> 
+    <article class="project">
+      <!-- Project 1 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project One</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Two</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Three</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Four</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Five</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 6 -->
+      <div class="card" onclick="window.location.href = 'http://www.google.com';">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Project Six</h3>
+            <p>React, Redux, SASS</p>
+          </div>
+          <div class="project-link">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </article>
+    <a href="#" class="btn btn-secondary"
+      target="_blank" >See More <i class="fas fa-arrow-right"></i
+    ></a>
+</section>

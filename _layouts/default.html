@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Primary Meta Tags -->
-    <title>Lindy Le</title>
+    <title>{{ page.title }} &ndash; Lindy Le</title>
     <meta name="title" content="Lindy Le" />
     <meta
       name="description"
@@ -25,7 +25,7 @@
     />
     <meta
       property="og:image"
-      content="assets/favicon/apple-touch-icon.png"
+      content="../assets/favicon/apple-touch-icon.png"
     />
 
     <!-- Twitter -->
@@ -41,51 +41,51 @@
     />
     <meta
       property="twitter:image"
-      content="assets/favicon/apple-touch-icon.png"
+      content="../assets/favicon/apple-touch-icon.png"
     />
 
     <!-- Link -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
+      href="../assets/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/favicon/favicon-16x16.png"
+      href="../assets/favicon/favicon-16x16.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
+      href="../assets/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"
+      href="../assets/favicon/android-chrome-192x192.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"
+      href="../assets/favicon/android-chrome-512x512.png"
     />
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.icon" />
+    <link rel="manifest" href="../assets/favicon/site.webmanifest" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
   </head>
   <body>
     <header id="hero">
@@ -95,7 +95,7 @@
           <!-- Logo -->
           <h1 id="logo">
             <a href="https://lindyle.github.io/"
-              ><img src="./assets/logo.png" alt="Lindy's Logo"
+              ><img src="../assets/logo.png" alt="Lindy's Logo"
             /></a>
           </h1>
           <!-- Navbar links -->
@@ -116,8 +116,8 @@
             <div class="theme-switch">
               <input type="checkbox" id="switch" />
               <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" class="svg-filter"/>
+                <img class="moon" src="../assets/moon.svg" />
+                <img class="sun" src="../assets/sun.svg" class="svg-filter"/>
               </label>
             </div>
             <!-- Hamburger menu -->
@@ -129,36 +129,26 @@
           </div>
         </div>
       </nav>
-
-      <!-- Header (About Me) -->
-      <section id="about" class="header-container">
-        <img
-          class="profile-image"
-          src="assets/profile-image.png"
-          alt="Lindy's Avatar"
-        />
-        <h1>Hi, I'm Lindy.</h1>
-        
-        <div class="content-text">
-          <h2 id="intro-h2">Neurodiversity · Empathy · Accessibility</h2>
-    
-          <p>
-            A Frontend Developer and Visual Designer with experience in web
-            design, brand identity and product design.
-          </p>
-        </div>
-        <a
-          href="mailto:lindyrose.le@gmail.com"
-          class="btn btn-secondary"
-          target="_blank"
-          >Let's Chat!</a
-        >
-      </section>
     </header>
 
-    <!-- Main -->
-    <section id="main"></section>
+    {{ content }}
 
-    <footer id="foot"></footer>
+    <footer id="footer">
+        <div class="container">
+            <!-- Social links -->
+            <div class="social">
+            <a href="https://www.linkedin.com/in/lindyle/" target="_blank"
+                ><img src="../assets/linkedin-icon.svg" alt="Linkedin" class="svg-filter"
+            /></a>
+            <a href="https://github.com/lindyle" target="_blank"
+                ><img src="../assets/github-icon.svg" alt="GitHub" class="svg-filter"
+            /></a>
+            </div>
+            <!-- Attribution -->
+            <p>Lindy Le &copy; 2023</p>
+            <p>Template &copy; 2023 <a href="https://github.com/CommunityPro/portfolio-html" target="_blank" rel="noopener noreferrer">CommunityPro</a>, under <a href="https://raw.githubusercontent.com/lindyle/lindyle.github.io/main/LICENSE" target="_blank">MIT License</a>.</p>
+            <p>Avatar &copy; 2023 <a href="https://picrew.me/en/search/creator?crid=307892" target="_blank" rel="noopener noreferrer">柊山羊</a> and Icon &copy; 2023 <a href="https://picrew.me/en/search/creator?crid=81338" target="_blank" rel="noopener noreferrer">Hayu</a>, under <a href="https://support.picrew.me/en/terms" target="_blank" rel="noopener noreferrer">Picrew Terms</a>.</p>
+        </div>
+    </footer>
   </body>
 </html>

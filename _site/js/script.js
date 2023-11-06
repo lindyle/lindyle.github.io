@@ -1,10 +1,4 @@
 $( document ).ready(function() {
-  // Initial load content
-  function initialLoad() {
-    $("#main").load("/projects.html");
-    $("#foot").load("/footer.html");
-  }
-
   // Mobile nav
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");
@@ -73,6 +67,4 @@ $( document ).ready(function() {
     const yes = new Date().getFullYear();
     datee.innerHTML = yes;
   });
-
-  initialLoad();
 });
