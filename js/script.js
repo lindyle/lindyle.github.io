@@ -1,11 +1,9 @@
 $( document ).ready(function() {
-  // Load content
+  // Initial load content
   function initialLoad() {
     $("#main").load("/projects.html");
     $("#foot").load("/footer.html");
   }
-
-  initialLoad();
 
   // Mobile nav
   const hamburger = document.querySelector(".hamburger");
@@ -75,4 +73,6 @@ $( document ).ready(function() {
     const yes = new Date().getFullYear();
     datee.innerHTML = yes;
   });
+
+  initialLoad();
 });
