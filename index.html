@@ -46,7 +46,6 @@ layout: default
               <h3>{{ portfolio_item.project_name }}</h3>
               <p>{{ portfolio_item.description }}</p>
             </div>
-
           </div>
         </div>
       {% endfor %}
@@ -80,5 +79,27 @@ layout: default
         </p>
       </div>
 
+  </article>
+</section>
+
+<!-- Art -->
+<section id="arts" class="art-container container">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2>Art</h2>
+  </div> 
+
+  <article class="art">
+    <!-- Art Card -->
+    {% for art_item in site.art %}
+      <div class="art-card">
+        <div class="art-info">
+          <div class="art-bio">
+            <h3>{{ art_item.art_name }}</h3>
+            <p>{{ art_item.description }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
   </article>
 </section>

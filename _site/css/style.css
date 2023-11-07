@@ -190,11 +190,14 @@ body {
   background-color: var(--card-background);
   margin: 5.5rem 0;
 }
-/* Projects */
-#projects, #publications {
+
+/* Projects (and some Publications as well as Arts) */
+#projects,
+#publications,  
+#arts {
   display: flex;
   flex-direction: column;
-  margin: 2rem auto 5rem;
+  margin: 0 auto;
 }
 
 #projects .btn {
@@ -202,23 +205,28 @@ body {
   margin: 2rem 0;
 }
 
-.project {
+.project,
+.art {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(250px, auto);
+  grid-auto-rows: minmax(350px, auto);
   grid-gap: 0.9rem;
   margin-top: 0.75em;
+  margin-bottom: 1.5em;
 }
 
-.card .project-bio p {
+.card .project-bio p,
+.art-card .art-bio p {
   font-size: 0.83rem;
 }
 
-.card .project-bio h3 {
+.card .project-bio h3,
+.art-card .art-bio h3 {
   font-size: 0.9rem;
 }
 
-.project-info {
+.project-info,
+.art-info {
   display: flex;
   justify-content: space-between;
   opacity: 0;
@@ -226,7 +234,8 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.project-bio {
+.project-bio,
+.art-bio {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -240,6 +249,11 @@ body {
   text-align: left;
   margin: 0 auto 1em;
   max-width: var(--width-small);
+}
+
+/* Art */
+#arts {
+  margin-bottom: 5rem;
 }
 
 /* Footer */
@@ -286,7 +300,8 @@ body {
 /* Responsiveness */
 
 @media (max-width: 1000px) {
-  .project {
+  .project,
+  .art {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -358,7 +373,8 @@ body {
 }
 
 @media (max-width: 600px) {
-  .project {
+  .project,
+  .art {
     display: grid;
     grid-template-columns: 1fr;
   }
