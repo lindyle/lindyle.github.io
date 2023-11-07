@@ -102,7 +102,7 @@ h2::selection {
 
 .content-text p {
   margin: 1em auto;
-  max-width: 700px;
+  max-width: var(--width-small);
 }
 
 /* Project cards */
@@ -136,7 +136,7 @@ h2::selection {
 
 /* Project Images */
 
-/* project 1 */
+/* Project 1 */
 .card:nth-child(1) {
   background: url(../assets/project/project-one.png) center center/cover;
 }
