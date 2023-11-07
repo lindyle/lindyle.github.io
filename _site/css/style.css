@@ -215,13 +215,13 @@ body {
   margin-bottom: 1.5em;
 }
 
-.card .project-bio p,
-.art-card .art-bio p {
+.card-container .project-bio p,
+.art-card-container .art-bio p {
   font-size: 0.83rem;
 }
 
-.card .project-bio h3,
-.art-card .art-bio h3 {
+.card-container .project-bio h3,
+.art-card-container .art-bio h3 {
   font-size: 0.9rem;
 }
 
@@ -234,14 +234,8 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.project-bio,
-.art-bio {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
-  top: 160px;
-  left: 10px;
+.project-bio {
+  cursor: pointer;
 }
 
 /* Publications */

@@ -18,8 +18,8 @@ layout: default
       Within <strong>Human-Computer Interaction</strong>, my research interests are neurodiversity, empathy, and accessibility.
       I'm currently a <strong>product manager at Microsoft,</strong> where I built assistive technology for people with visual, mobility, and cognitive disabilities.
       I also collaborate with <strong>Microsoft Research's Human Understanding and Empathy</strong> group, researching technologies to promote emotional resilience and well-being.
-      I conduct <strong>transdisciplinary research,</strong> synthesizing my experience in <strong>computer science, neuroscience, psychology, communications, sociology, and philosophy.</strong>
-      In my free time, I love making art through music (e.g., ocarina, ukuele), needlework (e.g., knitting, crochet), and dance (e.g., aerial silks, ballroom).
+      My approach to research is <strong>transdisciplinary:</strong> I draw on my experience in <strong>computer science, neuroscience, psychology, communications, sociology, and philosophy.</strong>
+      In my free time, I love making art through needlework (e.g., knitting, crochet), music (e.g., ocarina, ukuele), and dance (e.g., aerial silks, ballroom).
     </p>
   </div>
   <a
@@ -40,12 +40,14 @@ layout: default
     <article class="project">
       <!-- Project Card -->
       {% for portfolio_item in site.portfolio %}
-        <div class="card" onclick="window.location.href = '{{ portfolio_item.link }}';">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>{{ portfolio_item.project_name }}</h3>
-              <p>{{ portfolio_item.description }}</p>
+        <div class="card-container" onclick="window.location.href = '{{ portfolio_item.link }}';">
+          <div class="card">
+            <div class="project-info">
             </div>
+          </div>
+          <div class="project-bio">
+            <h3>{{ portfolio_item.project_name }}</h3>
+            <p>{{ portfolio_item.description }}</p>
           </div>
         </div>
       {% endfor %}
@@ -92,12 +94,14 @@ layout: default
   <article class="art">
     <!-- Art Card -->
     {% for art_item in site.art %}
-      <div class="art-card">
-        <div class="art-info">
-          <div class="art-bio">
-            <h3>{{ art_item.art_name }}</h3>
-            <p>{{ art_item.description }}</p>
+      <div class="art-card-container">
+        <div class="art-card">
+          <div class="art-info">
           </div>
+        </div>
+        <div class="art-bio">
+          <h3>{{ art_item.art_name }}</h3>
+          <p>{{ art_item.description }}</p>
         </div>
       </div>
     {% endfor %}
