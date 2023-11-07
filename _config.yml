@@ -1,5 +1,7 @@
 theme: jekyll-theme-cayman
 
 collections:
-  portfolio:
   art:
+  project:
+    output: true
+  

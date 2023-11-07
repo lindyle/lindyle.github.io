@@ -19,7 +19,7 @@ layout: default
       I'm currently a <strong>product manager at Microsoft,</strong> where I built assistive technology for people with visual, mobility, and cognitive disabilities.
       I also collaborate with <strong>Microsoft Research's Human Understanding and Empathy</strong> group, researching technologies to promote emotional resilience and well-being.
       My approach to research is <strong>transdisciplinary:</strong> I draw on my experience in <strong>computer science, neuroscience, psychology, communications, sociology, and philosophy.</strong>
-      In my free time, I love making art through needlework (e.g., knitting, crochet), music (e.g., ocarina, ukuele), and dance (e.g., aerial silks, ballroom).
+      In my free time, I love making art through needlework (e.g. knitting, crochet), music (e.g. ocarina, ukuele), and dance (e.g. aerial silks, ballroom).
     </p>
   </div>
   <a
@@ -39,15 +39,16 @@ layout: default
 
     <article class="project">
       <!-- Project Card -->
-      {% for portfolio_item in site.portfolio %}
-        <div class="card-container" onclick="window.location.href = '{{ portfolio_item.link }}';">
+      {% assign sorted_project = site.project | sort:"order" %}
+      {% for project_item in sorted_project %}
+        <div class="card-container" onclick="window.location.href = '{{ project_item.url }}';">
           <div class="card">
             <div class="project-info">
             </div>
           </div>
           <div class="project-bio">
-            <h3>{{ portfolio_item.project_name }}</h3>
-            <p>{{ portfolio_item.description }}</p>
+            <h3>{{ project_item.project_title }}</h3>
+            <p>{{ project_item.description }}</p>
           </div>
         </div>
       {% endfor %}
@@ -93,7 +94,8 @@ layout: default
 
   <article class="art">
     <!-- Art Card -->
-    {% for art_item in site.art %}
+    {% assign sorted_art = site.art | sort:"order" %}
+    {% for art_item in sorted_art %}
       <div class="art-card-container">
         <div class="art-card">
           <div class="art-info">
