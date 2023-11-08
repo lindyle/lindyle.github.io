@@ -1,16 +1,24 @@
 ---
 layout: default
 ---
-<section class="header-container">
-    <h1 class="project-title">{{ page.title }}</h1>
-</section>
-<section class="container">
+<section class="header-container project-header">
     <div class="content-text">
-        <h2 class="project-h2">Team</h2>
-        <p>{{ page.team }}</p>
+        <h1 class="project-title">{{ page.title }}</h1>
+    </div>
+    <img
+    class="project-image"
+    src="{{ page.img_src }}"
+    alt="{{ page.img_alt }}"
+  />
+</section>
 
-        <h2 class="project-h2">My Contributions</h2>
-        <p>{{ page.contribution }}</p>
+<section class="page-container container">
+    <div class="page-text">
+        <h2 class="project-h2">Project Overview</h2>
+        <p>{{ page.overview }}</p>
+        
+        <h2 class="project-h2">My Role</h2>
+        <p>{{ page.role }}</p>
 
         <h2 class="project-h2">Motivations</h2>
         <p>{{ page.motivations }}</p>

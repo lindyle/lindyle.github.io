@@ -99,6 +99,12 @@ h2::selection {
   margin-top: 1rem;
 }
 
+.project-header {
+  max-width: var(--width-medium);
+  margin: 8em auto auto;
+  padding: 1rem 2rem;
+}
+
 .content-text {
   text-align: center;
   margin: 1.5rem 0;
@@ -113,6 +119,21 @@ h2::selection {
 .content-text p {
   margin: 1em auto;
   max-width: var(--width-small);
+}
+
+/* Project Page */
+.page-container {
+  text-align: left;
+  max-width: 700px;
+  margin-bottom: 5rem;
+}
+
+.page-text h2 {
+  margin: 0.5em auto;
+}
+
+.page-text p {
+  margin: 0.5em auto 1.5em;
 }
 
 /* Project and Art cards */
