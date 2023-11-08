@@ -81,7 +81,7 @@ h1 {
 }
 
 #intro {
-  max-width: var(--width-small);
+  max-width: 750px;
 }
 
 #intro-p {
@@ -251,7 +251,7 @@ body {
 .pub-text {
   text-align: left;
   margin: 0 auto 1em;
-  max-width: var(--width-small);
+  max-width: 750px;
 }
 
 /* Art */
