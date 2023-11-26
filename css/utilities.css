@@ -21,8 +21,7 @@
   padding-bottom: 0;
 }
 
-h1::selection,
-h2::selection {
+::selection {
   color: #222;
   background: var(--primary-color);
 }
