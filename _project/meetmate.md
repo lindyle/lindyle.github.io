@@ -2,7 +2,7 @@
 layout: project
 title: MeetMate
 order: 5
-description: Test description
+description: HUE Group Research Project
 img_src: ../assets/project/project-five.png
 img_alt: Test alt
 overview: Test overview

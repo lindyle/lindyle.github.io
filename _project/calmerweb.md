@@ -2,7 +2,7 @@
 layout: project
 title: A Calmer Web
 order: 4
-description: Test description
+description: Windows Accessibility Project
 img_src: ../assets/project/project-four.png
 img_alt: Test alt
 overview: Test overview

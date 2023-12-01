@@ -2,7 +2,7 @@
 layout: project
 title: Switch Access
 order: 6
-description: Test description
+description: Windows Accessibility Project
 img_src: ../assets/project/project-six.png
 img_alt: Test alt
 overview: Test overview

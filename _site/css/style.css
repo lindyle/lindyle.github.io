@@ -84,8 +84,16 @@ h1 {
   max-width: 750px;
 }
 
-#intro-p {
+.intro-p {
   text-align: justify;
+}
+
+#intro-p1 {
+  margin-bottom: 0.5em;
+}
+
+#intro-p2 {
+  margin-top: 0;
 }
 
 /* Main styling */

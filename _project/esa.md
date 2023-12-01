@@ -2,7 +2,7 @@
 layout: project
 title: Emotional Support Agent (ESA)
 order: 2
-description: Test description
+description: Windows Accessibility & HUE Group Project
 img_src: ../assets/project/project-two.png
 img_alt: Test alt
 overview: Test overview

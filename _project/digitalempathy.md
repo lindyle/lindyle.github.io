@@ -2,7 +2,7 @@
 layout: project
 title: Digital Empathy
 order: 1
-description: Test description
+description: HUE Group Research Project
 img_src: ../assets/project/project-one.png
 img_alt: Test alt
 overview: Test overview

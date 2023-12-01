@@ -2,7 +2,7 @@
 layout: project
 title: DISCERN
 order: 3
-description: Test description
+description: HUE Group Research Project
 img_src: ../assets/project/project-three.png
 img_alt: Test alt
 overview: Test overview
