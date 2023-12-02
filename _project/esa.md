@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Emotional Support Agent (ESA)
+title: Emotional Support Agent (Esa)
 order: 2
 description: Windows Accessibility & HUE Group Project
 img_src: ../assets/project/project-two.png
