@@ -4,8 +4,9 @@ title: Digital Empathy
 order: 1
 description: HUE Group Research Project
 vid: null
+vid_title: 
 img_src: ../assets/project/digitalempathy/empathyscale.png
-img_alt: Empathy Score Card evaluates agent empathy across 7 dimensions- Affective Understanding, Cognitive Understanding, Response Appropriateness, Prosocial Behavior, Curiosity and Attention, Contextual Understanding, and Conversational Memory.
+img_alt: Empathy Scorecard evaluates agent empathy across 7 dimensions- Affective Understanding, Cognitive Understanding, Response Appropriateness, Prosocial Behavior, Curiosity and Attention, Contextual Understanding, and Conversational Memory.
 overview: Historically, researchers have studied empathic AI by applying understandings of human empathy to agent behavior. In those studies, the goal is for agents to be as humanlike as possible, and participants watch for empathic behavior in agents. <br/> <br/> Digital Empathy is a project that seeks to make human-AI interactions more appropriate to humans, not to make agents more humanlike. 
 role: I developed the definition of Digital Empathy and created a 7-dimensional scale to measure Digital Empathy in agents, in collaboration with Dr. Jina Suh, Dr. Mary Czerwinski, and other members from Microsoft Research's Human Understanding and Empathy (HUE) group. I am currently working with Dr. Suh to operationalize the Digital Empathy scale in a study that evaluates chatbot empathy across multiple real-life interactions. <br/> <br/> I also synthesized HUE group planning documents and discussions into a roadmap that includes the vision and execution strategy for researching Digital Empathy, from definition and measurement to intervention and augmentation of empathic human-AI interactions.
 motivations: The goal of Digital Empathy is to create a human-centric benchmark for measuring empathy in agents and empower other researchers with tools and data sets to conduct human-centered AI research.

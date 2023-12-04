@@ -12,7 +12,7 @@ layout: default
             alt="{{ page.img_alt }}"
         />
     {% else %}
-        {% include youtubeplayer.html id=page.vid %}
+        {% include youtubeplayer.html id=page.vid title=page.vid_title %}
     {% endif %}
 </section>
 
@@ -32,7 +32,7 @@ layout: default
 
         {% if page.approach %}
             <img
-                class="project-image"
+                class="project-image approach-image"
                 src="{{ page.approach_src }}"
                 alt="{{ page.approach_alt }}"
             />

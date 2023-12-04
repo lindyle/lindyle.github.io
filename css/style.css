@@ -26,7 +26,7 @@
   --weight-bold: 700;
 
   /* Max width */
-  --width-small: 650px;
+  --width-small: 655px;
   --width-medium: 1100px;
   --width-large: 1300px;
 }
@@ -59,9 +59,13 @@ ul {
   list-style: none;
 }
 
-a {
+.nav-link {
   text-decoration: none;
   color: var(--text-color);
+}
+
+a:not(.nav-link) {
+  color: #8c3a1d;
 }
 
 h1 {
@@ -81,7 +85,7 @@ h1 {
 }
 
 #intro {
-  max-width: 750px;
+  max-width: 730px;
 }
 
 .intro-p {
@@ -188,7 +192,10 @@ body {
 
 .project-image {
   max-width: var(--width-small);
-  max-height: 400px;;
+}
+
+.project-image:not(.approach-image) {
+  max-height: 400px;
 }
 
 @keyframes bounce {
