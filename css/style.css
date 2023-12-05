@@ -390,6 +390,11 @@ body {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .project-image,
+  iframe {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -402,5 +407,10 @@ body {
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
+  }
+
+  .project-image,
+  iframe {
+    max-width: 100%;
   }
 }
