@@ -14,6 +14,7 @@
   --bg-primary: #fff6cc;
   --text-color: #222222;
   --text-color-two: #fff6cc;
+  --link-color: #8c3a1d;
   --bg-secondary: #000000;
   --card-background: #fffdf5;
   --bg-secondary-two: #111111;
@@ -37,6 +38,7 @@
   --bg-primary: #000000;
   --text-color: #fff6cc;
   --text-color-two: #222222;
+  --link-color: #bf8a78;
   --bg-secondary: #fff6cc;
   --card-background: #111111;
   --bg-secondary-two: #fffdf5;
@@ -65,7 +67,7 @@ ul {
 }
 
 a:not(.nav-link) {
-  color: #8c3a1d;
+  color: var(--link-color);
 }
 
 h1 {
