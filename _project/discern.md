@@ -14,5 +14,5 @@ approach: DISCERN was a design probe developed based on formative studies to und
 approach_src: ../assets/project/discern/approach.png
 approach_alt: DISCERN supports value tree visualizations within a spreadsheet.
 outcomes: While DISCERN gave managers a more expressive medium to iterate on decision making, the inherently rigid structure of a spreadsheet prevented managers and their hypothetical teams from collectively exploring alternative solutions. I termed this concept <em>generative compromise</em>, based on the idea of generative dialogue. We contributed implications for designing organizational decision-making tools in a <a href='https://lindyle.github.io/assets/pdf/DISCERN_Preprint_2024.pdf' target='blank'>paper under review at the 2024 ACM Conference on Human Factors in Computing Systems (CHI '24)</a>.
-takeaways: This project showed me the importance of humanistic and relational perspectives in HCI research.
+takeaways: This project showed me the importance of humanistic and relational perspectives in Human-Computer Interaction research.
 ---
