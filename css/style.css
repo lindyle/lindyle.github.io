@@ -250,14 +250,18 @@ body {
   margin-bottom: 1.5em;
 }
 
-.feature-info, .feature-image {
-  display: inline-block;
+.feature-card-container {
+  display: inline-flex;
   vertical-align: top;
 }
 
 .feature-info {
   margin-left: 4em;
   padding-top: 4em;
+}
+
+.feature-title {
+  margin-bottom: 0.5em;
 }
 
 .hidden-link:hover {
@@ -286,7 +290,7 @@ body {
 }
 
 .project-bio,
-.fhidden-link {
+.hidden-link {
   cursor: pointer;
 }
 
