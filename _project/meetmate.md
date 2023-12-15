@@ -19,5 +19,5 @@ approach: MeetMate supported iterative preference elicitation through a hybrid L
 approach_src: ../assets/project/meetmate/approach.png
 approach_alt: MeetMate combines LLMs and Constraint Programming to facilitate meeting scheduling.
 outcomes: Although users enjoyed the ability to use natural language with MeetMate, they wanted the system to be context-adaptive and provide greater flexibility over what gets optimized. We contributed implications for designing systems that support collaborative human-AI decision-making processes in a <a href='https://arxiv.org/pdf/2312.06908.pdf' target='blank'>paper in submission to ACM Transactions on Interactive Intelligent Systems (TiiS) 2024</a>.
-takeaways: This project showed me the importance of a contextual and humanistic approach to human-AI interaction research, balancing AI optimization with user agency to augment and not replace human interactions.
+takeaways: This project showed me the importance of an enactivist approach to human-AI interaction research, balancing AI optimization with user agency to augment and not replace human interactions.
 ---

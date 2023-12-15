@@ -14,5 +14,5 @@ approach: To define Digital Empathy, I first conducted a thematic literature rev
 approach_src: ../assets/project/digitalempathy/approach.png
 approach_alt: In our study, participants will chat with an AI agent and then rate the agent's responses as good, neutral, or poor examples of Digital Empathy.
 outcomes: Planned contributions include a paper describing Digital Empathy and the 7-dimensional scale, a system for evaluating the empathic capability of LLMs, and an annotated dataset of empathic agent responses.
-takeaways: This project has shown me how I can leverage interdisciplinary knowledge to transform theory into practice in Human-Computer Interaction.
+takeaways: This project has shown me how I can leverage multidisciplinary knowledge to transform theory into practice in Human-Computer Interaction.
 ---

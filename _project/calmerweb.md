@@ -22,5 +22,5 @@ outcomes: A Calmer Web received enthusiastic support from Windows leadership. I 
         allowfullscreen="true"
         title="Focus Sessions project demo video">
     </iframe> </div>
-takeaways: This project showed me how I can combine <a href='https://inclusive.microsoft.design/' target='blank'>Inclusive Design</a>, assistive technology, and lived experience to create technology that benefits both disabled people as well as mainstream users, including enterprise customers and businesses like Microsoft.
+takeaways: This project showed me how I can combine <a href='https://inclusive.microsoft.design/' target='blank'>Inclusive Design</a>, assistive technology, and lived experience to create technology that benefits both disabled people and mainstream users, as well as enterprise customers and businesses like Microsoft.
 ---

@@ -14,5 +14,5 @@ approach: Similar to <a href='https://usability.yale.edu/web-accessibility/artic
 approach_src: ../assets/project/switchaccess/approach.png
 approach_alt: Switch devices navigate and interact with the OS via a focus visual and menu.
 outcomes: Switch Access enabled limited mobility users to navigate and interact with Windows, to meet compliance standards and unblock device sales for 856K people.
-takeaways: This project showed me that accessibility practices need to consider disabled users' intersectionality and individuality.
+takeaways: This project showed me that accessibility practices need to consider disabled users' intersectional and embodied experiences.
 ---
