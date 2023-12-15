@@ -301,6 +301,24 @@ body {
   max-width: 750px;
 }
 
+.publication {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 0.75em;
+  margin-bottom: 1.5em;
+}
+
+.pub-card-container {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.feature-info {
+  margin-left: 4em;
+  padding-top: 4em;
+}
+
 /* Art */
 #arts {
   margin-bottom: 5rem;
