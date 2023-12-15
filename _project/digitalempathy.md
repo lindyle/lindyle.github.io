@@ -12,7 +12,7 @@ role: I developed the definition of Digital Empathy and created a 7-dimensional 
 motivations: The goal of Digital Empathy is to create a human-centric benchmark for measuring empathy in agents and empower other researchers with tools and data sets to conduct human-centered AI research. 
 approach: To define Digital Empathy, I first conducted a thematic literature review of 22 papers across psychology, neuroscience, machine learning, sociology, robotics, and other disciplines. Then I created and iterated on affinity diagrams with Dr. Suh to create the Digital Empathy scale. <br/> <br/> For our study, we are asking 500 participants to engage with a single LLM model in at least 5 different tasks over 2 weeks. Participants will be asked to label the agent's responses along the 7 dimensions of Digital Empathy. We will test 3 different models across different participants and analyze the data both quantitatively and qualitatively.
 approach_src: ../assets/project/digitalempathy/approach.png
-approach_alt: Historical approaches to studying empathic AI have focused on humanlike agent empathy. Our approach focuses on the interaction from a human-centric perspective, evaluating the agent's response to human affective and cognitive input.
+approach_alt: In our study, participants will chat with an AI agent and then rate the agent's responses as good, neutral, or poor examples of Digital Empathy.
 outcomes: Planned contributions include a paper describing Digital Empathy and the 7-dimensional scale, a system for evaluating the empathic capability of LLMs, and an annotated dataset of empathic agent responses.
 takeaways: This project has shown me how I can leverage interdisciplinary knowledge to transform theory into practice in Human-Computer Interaction.
 ---

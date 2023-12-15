@@ -17,7 +17,8 @@
 }
 
 .pub-container,
-.project-container {
+.project-container,
+.featured-container {
   padding-bottom: 0;
 }
 
@@ -147,7 +148,12 @@
   block-size: 350px;
 }
 
-.card-container {
+.project-image {
+  border-radius: 7px;
+}
+
+.card-container,
+.feature-image {
   cursor: pointer;
 }
 
