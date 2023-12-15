@@ -61,12 +61,12 @@ ul {
   list-style: none;
 }
 
-.nav-link {
+.hidden-link {
   text-decoration: none;
   color: var(--text-color);
 }
 
-a:not(.nav-link) {
+a:not(.hidden-link) {
   color: var(--link-color);
 }
 
@@ -245,7 +245,7 @@ body {
 .feature {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 2rem;
   margin-top: 0.75em;
   margin-bottom: 1.5em;
 }
@@ -257,7 +257,13 @@ body {
 
 .feature-info {
   margin-left: 4em;
-  padding-top: 1.5em;
+  padding-top: 4em;
+}
+
+.hidden-link:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 .card-container .project-bio p,
@@ -280,7 +286,7 @@ body {
 }
 
 .project-bio,
-.feature-title {
+.fhidden-link {
   cursor: pointer;
 }
 
