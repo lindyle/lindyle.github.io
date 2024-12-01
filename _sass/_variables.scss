@@ -26,8 +26,10 @@ $pink-color-dark-theme:#fc7db6 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
-$grey-color: #828282 !default;
+$grey-color: #a8a8a8 !default; // dark theme safe
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-alt: #595959 !default; // light theme safe
+$grey-color-light-alt: color.adjust($grey-color-alt, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
