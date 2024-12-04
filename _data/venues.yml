@@ -1,10 +1,14 @@
-"CHI '24":
-  url: https://chi2024.acm.org/
+"CHI 24":
+  url: https://chi2024.acm.org
   color: "#b00351"
 
-"ASSETS '24":
-  url: https://assets24.sigaccess.org/
-  color: "b00351"
+"ASSETS 24":
+  url: https://assets24.sigaccess.org
+  color: "#b00351"
 
-"TiiS":
+"ACM TiiS":
+  url: https://dl.acm.org/journal/tiis
+  color: "#b00351"
+
+"US Patent":
   color: "#b00351"
