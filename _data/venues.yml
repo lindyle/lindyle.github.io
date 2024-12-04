@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CHI '24":
+  url: https://chi2024.acm.org/
+  color: "#b00351"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ASSETS '24":
+  url: https://assets24.sigaccess.org/
+  color: "b00351"
 
-"Vision":
-  color: "#009f36"
+"TiiS":
+  color: "#b00351"
