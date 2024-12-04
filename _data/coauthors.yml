@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"suh":
+  - firstname: ["Jina"]
+    url: https://www.microsoft.com/en-us/research/people/jinsuh/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"khadpe":
+  - firstname: ["Pranav"]
+    url: https://pranavkhadpe.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"iqbal":
+  - firstname: ["Shamsi", "Shamsi T"]
+    url: https://www.microsoft.com/en-us/research/people/shamsi/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"nowak":
+  - firstname: ["Kate"]
+    url: https://www.microsoft.com/en-us/research/people/kanowak/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"lawless":
+  - firstname: ["Connor"]
+    url: https://conlaw.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"schoeffer":
+  - firstname: ["Jakob"]
+    url: https://jakobschoeffer.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"sen":
+  - firstname: ["Shilad"]
+    url: https://www.shilad.com/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sarrafzadeh":
+  - firstname: ["Bahar"]
+    url: https://www.microsoft.com/en-us/research/people/basarraf/
