@@ -19,6 +19,15 @@ strong {
   color: var(--global-text-color);
 }
 
+h1:not(.post-title),
+h2:not(.post-title),
+h3:not(.post-title),
+h4:not(.post-title),
+h5:not(.post-title),
+h6:not(.post-title) {
+  margin-bottom: 1.5rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -383,7 +392,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -465,6 +474,12 @@ footer.sticky-bottom {
   .container {
     text-align: center;
   }
+}
+
+// Title
+
+.title-pronouns {
+  font-size: large;
 }
 
 // CV
