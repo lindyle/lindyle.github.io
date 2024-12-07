@@ -9,11 +9,11 @@ last_name: Le
 pronouns: she/they
 email: lindyrose.le@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Lindy Le's academic portfolio.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank" class="footer-link">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" class="footer-link">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank" class="footer-link">GitHub Pages</a>.
+  Icons derived from <a href="https://picrew.me/en/search/creator?crid=307892" target="_blank" rel="noreferrer" class="footer-link">柊山羊</a> and <a href="https://picrew.me/en/search/creator?crid=81338" target="_blank" rel="noreferrer" class="footer-link">Hayu</a>.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -114,7 +114,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email is best.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
