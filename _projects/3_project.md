@@ -1,81 +1,39 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: discern
+description: technological support for highly interactional social decision-making
+permalink: /projects/discern/
+img: assets/img/project/3.png
+img_alt: "DISCERN project thumbnail"
+importance: 1
+category: social computing
+related_publications: true
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/3.png" title="DISCERN project image" class="img-fluid rounded z-depth-1" alt="DISCERN is a digital tool to help managers reason about data and objectives to make organizational decisions." %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+## Project Overview
+Decision support systems tend to <a href="https://ieeexplore.ieee.org/document/10292614" target="_blank">prioritize analytical calculations and optimal answers</a> over subjective judgments. However, <a href="https://link.springer.com/article/10.1007/s11423-011-9230-5" target="_blank">human decisions are value-laden</a>, influenced by the decision maker's context and interpersonal relationships. DISCERN was a digital tool to help managers collaboratively reason about decision-making data and objectives.
+
+## My Role
+I worked with Dr. Jina Suh to facilitate a qualitative user enactment study with 4 managers and their hypothetical teams to test how our design probe can support organizational decision-making. I open-coded all 8 user enactment sessions and organized the data into affinity diagrams to collaboratively iterate on themes using reflexive thematic analysis.
+
+## Motivations
+The goal of DISCERN was to investigate how value-sensitive digital tools can support decision making in socially situated contexts.
+
+## Approach
+DISCERN was a design probe developed based on formative studies to understand managers' decision-making practices. Semi-structured interviews with 11 managers demonstrated that managers wanted technology to facilitate and not eliminate active listening. Additionally, they used various tools to help externalize their thought, and these changed throughout the decision-making process based on whether they were reasoning about high-level objectives or low-level data. Thus, DISCERN integrated value-tree visualizations within a spreadsheet to accommodate reasoning about both high-level objectives and low-level data. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/discern/approach.png" title="DISCERN Approach" class="img-fluid rounded z-depth-1" alt="DISCERN supports value tree visualizations within a spreadsheet." %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Outcomes
+While DISCERN gave managers a more expressive medium to iterate on decision making, the inherently rigid structure of a spreadsheet prevented managers and their hypothetical teams from collectively exploring alternative solutions. I termed this concept <em>generative compromise</em>, based on the idea of generative dialogue. We contributed implications for designing organizational decision-making tools in a paper published at the 2024 ACM Conference on Human Factors in Computing Systems (CHI '24)</a>. {% cite 10.1145/3613904.3642685 %}.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Takeaways
+This project showed me the importance of humanistic and relational perspectives in Human-Computer Interaction research.

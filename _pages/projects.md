@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 4
-display_categories: [work, fun]
+display_categories: [human-centered ai, social computing, accessibility]
 horizontal: false
 ---
 

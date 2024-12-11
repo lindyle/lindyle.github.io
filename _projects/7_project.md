@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: switch access
+description: assistive technology for people with limited mobility
+permalink: /projects/switchaccess/
+img: assets/img/project/7.png
+img_alt: "Switch Access project thumbnail"
+importance: 4
+category: accessibility
+related publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="project-image">
+            <iframe
+                src="https://www.youtube.com/embed/3hIRRt70ujU"
+                width="930"
+                height="523.13"
+                frameborder="0"
+                allowfullscreen="true"
+                title="Switch Access project demo video">
+            </iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+## Project Overview
+People with limited mobility can struggle to use a traditional keyboard, mouse, or touchscreen. <a href="https://www.perkins.org/resource/introduction-7-common-adaptive-switches/" target="_blank">Assistive switches</a> are a class of peripheral devices that allow people with limited mobility to navigate and interact with their computing device. Switch Access was a new assistive technology solution for people with limited mobility to operate Windows.
+
+## My Role
+I drove the project strategy and execution, leading a cross-functional team of 14 members across Redmond and India. I developed and established consensus on a 3-year roadmap of 44 prioritized user scenarios and coordinated semimonthly collaborations with 17 external customers. I also led end-to-end product development for 7 features, which involved conducting market and user research; defining product specifications and requirements; and working cross-functionally to design, develop, and test product changes.
+
+## Motivations
+The goal of Switch Access was to ensure that Windows was accessible to people with limited mobility.
+
+## Approach
+Similar to <a href="https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability" target="_blank">other assistive technology such as screen readers</a>, Switch Access had a focus indicator that showed which element on the screen will be acted upon. A menu showed available actions that users can perform on the focused element. Limited mobility users controlled the focus indicator and menu via a switch device with two assistive switches.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/switchaccess/approach.png" title="Switch Access Approach" class="img-fluid rounded z-depth-1" alt="Switch devices navigate and interact with the OS via a focus visual and menu." %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Outcomes
+Switch Access enabled limited mobility users to navigate and interact with Windows, to meet compliance standards and unblock device sales for 856K people.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Takeaways
+This project showed me that accessibility practices need to consider disabled users' intersectional and embodied experiences.

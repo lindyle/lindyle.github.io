@@ -1,80 +1,62 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: a calmer web
+description: focused web experience to improve workplace productivity
+permalink: /projects/calmerweb/
+img: assets/img/project/6.png
+img_alt: "A Calmer Web project thumbnail"
+importance: 3
+category: accessibility
+related publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="project-image">
+            <iframe
+                src="https://www.youtube.com/embed/15WkNDXIMEc"
+                width="930"
+                height="523.13"
+                frameborder="0"
+                allowfullscreen="true"
+                title="A Calmer Web project pitch video">
+            </iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+## Project Overview
+Internet distractions cause a loss in productivity that <a href="https://hbr.org/2015/06/conquering-digital-distraction" target="_blank">costs the U.S. economy over $997 billion annually</a>. Remote work due to the <a href="https://www.statista.com/statistics/1139757/us-distractions-while-working-from-home-during-coronavirus/" target="_blank">COVID-19 pandemic worsened this problem</a>. Grounded in the lived experiences of neurodivergent individuals, A Calmer Web is a digital sanctuary where users can focus, be productive, and achieve their goals.
+
+## My Role
+I developed the vision and roadmap for A Calmer Web, driving a partnership across Windows and Microsoft Edge. To iterate on and validate the design, I conducted 8 semi-structured interviews with neurodiverse users. I also produced the above pitch video to publicize the project and led subsequent investments in cognitive and mental health accessibility.
+
+## Motivations
+A Calmer Web was grounded in my experiences with undiagnosed autism and ADHD. While working from home during the COVID-19 pandemic, I found it really hard to focus on the Internet. Websites were constantly overwhelming me with trending news, ads, and notifications. Certain stimuli were directly harmful, triggering my Complex Post-Traumatic Stress Disorder (CPTSD) and leaving me in an immobilized state of panic. I reached out to other Microsoft employees from the Neurodiverse ERG and discovered that I was not alone in these experiences, which inspired me to build and deploy A Calmer Web.
+
+## Approach
+A Calmer Web was implemented as a Microsoft Edge browser extension that helps users focus through digital affordances based on ADHD management tools. It integrated with the Focus Timer and Microsoft To-Do applications to facilitate <a href="https://www.forbes.com/sites/bryancollinseurope/2020/03/03/the-pomodoro-technique/?sh=21a5e00a3985" target="_blank">Pomodoro sessions</a> and offer machine learning&ndash;based recommendations based on users' current task. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/calmerweb/approach.png" title="A Calmer Web Approach" class="img-fluid rounded z-depth-1" alt="A Calmer Web integrates Pomodoro sessions into the focused web experience." %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+## Outcomes
+A Calmer Web received enthusiastic support from Windows leadership. I leveraged the success of the project to drive new productivity solutions for neurodivergent users, including the <a href="https://www.windowscentral.com/software-apps/windows-11/how-to-use-focus-on-windows-11-2022-update" target="_blank">Focus Sessions feature on Windows 11</a>, which was inspired by A Calmer Web. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="project-image">
+            <iframe
+                src="https://www.youtube.com/embed/MdZiJ2CYBbI?si=tKrzpWkq9f9ArJj_&amp;start=21"
+                width="930"
+                height="523.13"
+                frameborder="0"
+                allowfullscreen="true"
+                title="Focus Sessions project demo video">
+            </iframe> 
+        </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Takeaways
+This project showed me how I can combine <a href="https://inclusive.microsoft.design/" target="_blank">Inclusive Design</a>, assistive technology, and lived experience to create technology that benefits both disabled people and mainstream users, as well as enterprise customers and businesses like Microsoft.
