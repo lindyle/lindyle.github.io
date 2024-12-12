@@ -33,7 +33,7 @@ DISCERN was a design probe developed based on formative studies to understand ma
 </div>
 
 ## Outcomes
-While DISCERN gave managers a more expressive medium to iterate on decision making, the inherently rigid structure of a spreadsheet prevented managers and their hypothetical teams from collectively exploring alternative solutions. I termed this concept <em>generative compromise</em>, based on the idea of generative dialogue. We contributed implications for designing organizational decision-making tools in a paper published at the 2024 ACM Conference on Human Factors in Computing Systems (CHI '24)</a>. {% cite 10.1145/3613904.3642685 %}.
+While DISCERN gave managers a more expressive medium to iterate on decision making, the inherently rigid structure of a spreadsheet prevented managers and their hypothetical teams from collectively exploring alternative solutions. I termed this concept <em>generative compromise</em>, based on the idea of generative dialogue. We contributed implications for designing organizational decision-making tools in a paper published at the 2024 ACM Conference on Human Factors in Computing Systems (CHI '24). {% cite 10.1145/3613904.3642685 %}.
 
 ## Takeaways
 This project showed me the importance of humanistic and relational perspectives in Human-Computer Interaction research.
