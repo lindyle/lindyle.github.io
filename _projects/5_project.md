@@ -36,7 +36,7 @@ Thus, Esa was an embodied agent designed to serve three main functions:
 
 2. <strong>Deliver therapeutic interventions</strong>- Esa prompted the user with a just-in-time intervention when it detected that the user's stress level may have been high. Interventions came from a list of evidence-based stress reduction techniques, based on the HUE group's previous research on <a href="https://www.microsoft.com/en-us/research/uploads/prod/2018/03/pn3413-paper.pdf" target="_blank">technologies to support Dialectical Behavioral Therapy</a>.
 
-3. <strong>Adapt to user insights</strong>- Esa used machine learning to personalize stress detection and intervention recommendations for each user. Users could view historical data about their stress levels and completed interventions to build self-awareness about and promote engagement with personal well-being improvements."
+3. <strong>Adapt to user insights</strong>- Esa used machine learning to personalize stress detection and intervention recommendations for each user. Users could view historical data about their stress levels and completed interventions to build self-awareness about and promote engagement with personal well-being improvements.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project/esa/approach.png" title="Esa Approach" class="img-fluid rounded z-depth-1" alt="Esa delivering a stress intervention that involved deep breathing." %}
