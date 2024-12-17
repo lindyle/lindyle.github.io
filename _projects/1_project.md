@@ -16,31 +16,30 @@ related_publications: true
 </div>
 
 ## Project Overview
- Decision support systems rely on <a href="https://core.ac.uk/download/pdf/147923741.pdf" target="_blank">accurate modeling of user preferences</a>. However, the uncertainty and inconsistency of human preferences <a href="https://link.springer.com/article/10.1007/s11257-011-9116-6" target="_blank">complicates the preference elicitation process</a> between systems and users. MeetMate combined Large Language Models (LLMs) and Constraint Programming to facilitate interactive decision support.
+Many decision support systems are dependent on the ability to accurately model user preferences. However, people's preferemces are contextual and often change throughout the decision-making process. Moreover, traditional optimization techniques require full knowledge of the model's objective and constraints. 
 
-## My Role
-I coordinated and facilitated 10 semi-structured interviews to test the usability of MeetMate. I open-coded all 10 interview sessions and organized the data into affinity diagrams to collaboratively iterate on themes using reflexive thematic analysis. I also collaborated with Dr. Jina Suh to develop an interaction model for MeetMate's preference elicitation process.
+To address these issues, we built a system that combined LLMs with constraint programming: LLMs facilitated natural communication between the user and the system, translating user preferences into constraint functions for the optimization solver. We studied this hybrid framework through the lens of meeting scheduling, a time-consuming daily activity faced by a multitude of information workers.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project/meetmate/model.png" title="MeetMate Model" class="img-fluid rounded z-depth-1" alt="MeetMate supports preference elicitation through preference construction and preference incorporation." %}
     </div>
 </div>
 
-## Motivations
-The goal of MeetMate was to study how decision support systems can account for the dynamic and subliminal nature of human preferences in decision making.
-
 ## Approach
-MeetMate supported iterative preference elicitation through a hybrid LLM and Constraint Programming approach. LLMs enabled an intuitive way for users to communicate their preferences and easily translated preferences into structured constraint functions. Constraint Programming techniques allowed the system to reason over the space of outcomes to find optimal solutions given users' expressed preferences. 
+ To evaluate our framework, we conducted three studies: 
+
+1. A diary study to characterize contextual scheduling preferences
+2. A quantitative evaluation of the system's performance
+3. A user study that used our system as a technology probe to elicit design insights
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project/meetmate/approach.png" title="MeetMate Approach" class="img-fluid rounded z-depth-1" alt="MeetMate combines LLMs and Constraint Programming to facilitate meeting scheduling." %}
     </div>
 </div>
 
-## Outcomes
-Although users enjoyed the ability to use natural language with MeetMate, they wanted the system to be context-adaptive and provide greater flexibility over what gets optimized. We contributed implications for designing systems that support collaborative human-AI decision-making processes in a paper published in the ACM Transactions on Interactive Intelligent Systems (TiiS) 2024 {% cite 10.1145/3685053 %}.
-
-## Takeaways
-This project showed me the importance of an enactivist approach to human-AI interaction research, balancing AI optimization with user agency, to augment and not replace human interactions.
+## Results
+Our work highlights the potential for a hybrid LLM and optimization approach for iterative preference elicitation and design considerations for building systems that support human-system collaborative decision-making processes {% cite 10.1145/3685053 %}.
 
 
