@@ -7,7 +7,7 @@ img: assets/img/project/2.png
 img_alt: "Digital empathy project thumbnail"
 importance: 2
 category: human-centered ai
-related_publications: false
+related_publications: true
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
