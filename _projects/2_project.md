@@ -30,5 +30,5 @@ To understand how individual and contextual differences influence perceptions of
 </div>
 
 ## Outcomes
-The main contributions of this work include our 7-dimensional digital empathy scale and an annotated dataset of empathic behaviors in conversational AI (paper in preparation).
+The main contributions of this work include our 7-dimensional digital empathy scale and an annotated dataset of empathic behaviors in conversational AI {% cite suh2025sense %}.
 
